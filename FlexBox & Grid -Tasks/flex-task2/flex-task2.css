@@ -1,0 +1,33 @@
+.container{
+    background-color: #ffffba;
+    display: flex;
+    justify-content: center;
+    width: 750px;
+    height: 700px;
+}
+.contacts-main{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px ;
+    width: 600px;
+    height: 600px;
+    justify-content: center;
+    border: 1px soild rgb(175, 175, 175);
+    border-radius: 100px;
+}
+.contacts-list{
+    display: flex;
+    margin-left: 35px;
+}
+
+img{
+    margin-right: 30px;
+    margin-top: 20px;
+    width: 80px;
+    height: 80px;
+}
+hr{
+    border: 0.3px solid rgb(173, 170, 170);
+    margin: 15px;
+}

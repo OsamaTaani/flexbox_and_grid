@@ -1,0 +1,35 @@
+.container{
+    display: grid;
+    width: 1000px;
+    height: 600px;
+    grid-template-columns: repeat(4,auto);
+
+}
+.box{
+    
+    background-color: #efefef;
+    margin: 3px;
+    padding: 10px;
+}
+.sub{
+    background-color: #cfcfcf;
+    padding: 10px;
+    margin: 5px;
+}
+.c,
+.r,
+.s{
+    display: grid;
+    
+}
+.s{
+    grid-template-columns: auto auto;
+}
+.r{
+    grid-template-rows: auto;
+    
+}
+.c{
+    grid-template-columns: auto;
+}
+
